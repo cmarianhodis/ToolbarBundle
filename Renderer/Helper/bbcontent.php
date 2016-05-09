@@ -176,7 +176,7 @@ class bbcontent extends AbstractHelper
     public function computeRendermodeAttribute()
     {
         $renderer = $this->getRenderer();
-        $this->attributes['data-rendermode'] = ($renderer->getMode() !== null) ? $renderer->getMode() : 'default';
+        $this->attributes['data-rendermode'] = ($renderer->getMode() !== null) ? $renderer->getMode() : '';
     }
 
     /**
