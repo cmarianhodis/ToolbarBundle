@@ -1,6 +1,6 @@
 {
     "name": "backbee/toolbar-bundle",
-    "description": "ToolbarBundle is the bridge between backbee/BackBee (Php side) and backbee/BBCoreJS",
+    "description": "Toolbar bundle is the bridge between backbee/backbee-php and backbee/backbee-js",
     "keywords": ["CMS", "Core", "Content Management", "No backend CMS", "User Management", "Bundle"],
     "license": "GPL-3.0+",
     "authors": [
@@ -15,8 +15,10 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "backbee/backbee": "~1.1.0",
-        "backbee/bb-core-js": "~1.1.0"
+        "backbee/backbee-js": "~1.2.0"
+    },
+    "require-dev": {
+        "backbee/backbee-php": "~1.2.0"
     },
     "autoload": {
         "psr-4": {
