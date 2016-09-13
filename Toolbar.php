@@ -80,7 +80,7 @@ class Toolbar extends AbstractBundle
         $application->addResourceDir(implode(DIRECTORY_SEPARATOR, [
             $application->getVendorDir(),
             'backbee',
-            'bb-core-js',
+            'backbee-js',
         ]));
     }
 
